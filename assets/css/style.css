@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial;
+/*    border: 3px solid rgb(60, 10, 177) background-color: lightgoldenrodyellow;*/
+  }
+
+.content {
+    max-width: 960px;
+/*    border: 3px solid rgb(177, 10, 135);*/
+    margin: auto;
+    padding: 20px;
+}
+
+.main {
+    max-width: 650px;
+/*    border: 3px solid rgb(71, 29, 29);*/
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    background-color: white;
+}
+
+.sidebar {
+    float: right;
+    max-width: 270px;
+    width: 270px;
+/*    border: 3px solid rgb(217, 231, 10);*/
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: rgb(56, 56, 56);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4aaaa5;
+}
+
+footer {
+    color: #ccc;
+    background-color: #666;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:40px;   /* Height of the footer */
+}
+
+
+#headhead {
+    margin: 0 auto;
+    background-color: white;
+}
+
+#head {
+    max-width: 960px;
+/*    border: 3px solid rgb(10, 177, 19);*/
+    margin: 0 auto;
+    background-color: white;
+}
+
+#name {
+    float:left;
+/*    border: 3px solid rgb(16, 230, 34);    */
+    background: #4aaaa5;
+    padding: 20px 16px;
+}
+
+#nav {
+/*    border: 3px solid rgb(173, 108, 33);*/
+    overflow: hidden;
+}
