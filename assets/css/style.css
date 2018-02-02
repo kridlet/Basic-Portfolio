@@ -1,116 +1,137 @@
-html {
-    position: relative;
-    min-height: 100%;
-}
-
 body {
-    margin: 0 0 40px; /* bottom = footer height */
+    margin: 0 0 40px 0;
     font-family: Arial;
-/*    border: 3px solid rgb(60, 10, 177) */
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
-    min-height: 450px
-}
-
-.content {
-    max-width: 960px;
-/*    border: 3px solid rgb(177, 10, 135);*/
-    margin: auto;
-    padding: 20px;
-    padding-bottom: 40px;
-}
-
-.main {
-    max-width: 650px;
-    width: 610px;
-/*    border: 3px solid rgb(71, 29, 29);*/
-    padding: 20px;
-    margin: 0px;
-    float: left;
-    background-color: white;
-    min-height: 100%;
-    margin-bottom: -50px;
-}
-
-.sidebar {
-    float: right;
-    max-width: 240px;
-    width: 240px;
-/*    border: 3px solid rgb(217, 231, 10);*/
-    padding: 15px;
-    margin: 0px;
-    overflow: hidden;
-    background-color: white;
+    height: 960px;
 }
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
 }
 
 li {
     float: right;
-    border-right: 1px solid #bbb;
-    padding: 5px;
+    padding: 2px;
+    color: grey;
 }
 
 li a {
-    display: block;
-    color: rgb(56, 56, 56);
-    text-align: center;
-    padding: 20px 16px;
+    border-right: 1px solid #ccc;
+    color: #999;
+    padding: 0px 20px;
     text-decoration: none;
+    font-size: 12pt;
 }
 
-li:first-child {
-    border-right: 0px solid rgb(150, 7, 7);
+p {
+    color: #999;
+    line-height: 25pt;
+}
+
+li:first-child a {
+    border-right: 0px solid white;
 }
 
 li a:hover:not(.active) {
     background-color: #4aaaa5;
+    color: white;
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     color: #ccc;
     background-color: #666;
     text-align: center;
     width: 100%;
-    height:40px;
-    margin-top: -40px;
-    overflow:hidden;
+    height: 0px;
     left: 0;
     bottom: 0;
+    padding: 30px;
+    margin-top: 40px;
 }
 
-#headhead {
-    margin: 0 auto;
+#header-bar {
     background-color: white;
 }
 
-#head {
+#header-menu {
     max-width: 960px;
-/*    border: 3px solid rgb(10, 177, 19);*/
     margin: 0 auto;
+    height: 67px;
+}
+
+#portfolio-name {
+    float:left;
+    background: #4aaaa5;
+    padding: 18px 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    color: white;
+    font-weight: bolder;
+    font-stretch: expanded;
+}
+
+.content-wrapper {
+    width: 960px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.main-panel {
+    float: left;
+    width: 610px;
+    padding: 20px;
     background-color: white;
 }
 
-#name {
-    float:left;
-/*    border: 3px solid rgb(16, 230, 34);    */
-    background: #4aaaa5;
-    padding: 20px 16px;
+.side-bar {
+    float: right;
+    width: 240px;
+    padding: 15px;
+    background-color: white;
 }
 
-#nav {
-/*    border: 3px solid rgb(173, 108, 33);*/
+.social-box {
+    width: 215px;
+    padding: 0;
+}
+
+.social-icon a {
+    color: #999;
+    text-decoration: none;
+    border-right: 0px solid #ccc;
+    padding: 39px 0px 2px 1px;
+}
+
+.heading {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-stretch: expanded;
+}
+
+.center {
+    text-align: center;
+}
+
+.nav-menu {
     overflow: hidden;
 }
 
-.mugshot {
-    max-width: 200px;
-    height: 100px;
+.mug-shot {
+    max-width: 230px;
+    height: 150px;
     float: left;
-    padding: 10px;
+    padding: 15px;
 }
+
+.gray-line {
+    border-top: 2px solid rgb(185, 185, 185);
+}
+
+.green-line {
+    border-top: 10px solid #4aaaa5;
+}
+
+
+
