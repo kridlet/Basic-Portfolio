@@ -23,11 +23,6 @@ li a {
     font-size: 12pt;
 }
 
-p {
-    color: #999;
-    line-height: 25pt;
-}
-
 li:first-child a {
     border-right: 0px solid white;
 }
@@ -35,6 +30,11 @@ li:first-child a {
 li a:hover:not(.active) {
     background-color: #4aaaa5;
     color: white;
+}
+
+p {
+    color: #999;
+    line-height: 25pt;
 }
 
 footer {
@@ -110,7 +110,7 @@ footer {
     font-stretch: expanded;
 }
 
-.center {
+.center-text {
     text-align: center;
 }
 
