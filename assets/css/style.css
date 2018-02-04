@@ -43,10 +43,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-label {
-    color: #999;
-}
-
 footer {
     position: fixed;
     color: #ccc;
