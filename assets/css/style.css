@@ -1,6 +1,6 @@
 body {
     margin: 0 0 40px 0;
-    font-family: Arial;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 }
 
@@ -23,7 +23,7 @@ ul {
 li {
     float: right;
     padding: 2px;
-    color: grey;
+    color: #777777;
 }
 
 li a {
@@ -45,8 +45,8 @@ li a:hover:not(.active) {
 
 footer {
     position: fixed;
-    color: #ccc;
-    background-color: #666;
+    color: #777777;
+    background-color: #666666;
     text-align: center;
     width: 100%;
     height: 70px;
@@ -61,7 +61,7 @@ hr {
 
 #header-bar {
     background-color: white;
-    border-bottom: 2px solid #bbb;
+    border-bottom: 2px solid #cccccc;
 }
 
 #header-menu {
@@ -74,8 +74,8 @@ hr {
     float: left;
     background: #4aaaa5;
     padding: 18px 18px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20pt;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20.5pt;
     color: white;
     font-weight: bolder;
     font-stretch: expanded;
@@ -91,14 +91,20 @@ hr {
     float: left;
     width: 610px;
     padding: 20px;
-    background-color: white;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
 }
 
 .side-bar {
     float: right;
     width: 240px;
     padding: 15px;
-    background-color: white;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 1px;
 }
 
 .social-box {
@@ -107,21 +113,21 @@ hr {
 }
 
 .social-icon a {
-    color: #999;
+    color: #777777;
     text-decoration: none;
     border-right: 0px solid #ccc;
     padding: 39px 0px 2px 1px;
 }
 
 .heading {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
     font-weight: bolder;
     font-stretch: expanded;
 }
 
 .paragraph-text {
-    color: #999;
+    color: #777777;
     line-height: 25pt;
 }
 
@@ -152,7 +158,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: #4aaaa5;
-    color: white;
+    color: #777777;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
@@ -186,7 +192,7 @@ input[type=submit]:hover {
     top: -85px;
     font-size: 22pt;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 .grid-container {
