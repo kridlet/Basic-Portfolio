@@ -158,7 +158,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     background-color: #4aaaa5;
-    color: #777777;
+    color: #dddddd;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
