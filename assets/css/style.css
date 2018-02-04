@@ -2,7 +2,18 @@ body {
     margin: 0 0 40px 0;
     font-family: Arial;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
-    height: 960px;
+}
+
+.contact {
+    height: 810px;
+}
+
+.portfolio {
+    height: 1150px;
+}
+
+.index {
+    height: 1670px;
 }
 
 ul {
@@ -32,11 +43,6 @@ li a:hover:not(.active) {
     color: white;
 }
 
-p {
-    color: #999;
-    line-height: 25pt;
-}
-
 label {
     color: #999;
 }
@@ -47,15 +53,19 @@ footer {
     background-color: #666;
     text-align: center;
     width: 100%;
-    height: 0px;
+    height: 70px;
     left: 0;
     bottom: 0;
-    padding: 30px;
-    margin-top: 40px;
+    border-top: 8px solid #4aaaa5;
+}
+
+hr {
+    border-top: 2px solid rgb(185, 185, 185);
 }
 
 #header-bar {
     background-color: white;
+    border-bottom: 2px solid #bbb;
 }
 
 #header-menu {
@@ -75,9 +85,6 @@ footer {
     font-stretch: expanded;
 }
 
-.contact {
-    height: 810px;
-}
 .content-wrapper {
     width: 960px;
     margin: auto;
@@ -117,6 +124,12 @@ footer {
     font-stretch: expanded;
 }
 
+.paragraph-text {
+    color: #999;
+    line-height: 25pt;
+}
+
+
 .center-text {
     text-align: center;
 }
@@ -132,18 +145,6 @@ footer {
     padding: 15px;
 }
 
-.gray-line {
-    border-top: 2px solid rgb(185, 185, 185);
-}
-
-.green-line {
-    border-top: 10px solid #4aaaa5;
-}
-
-
-/* ------$$$$$$$$$$$$-------- */
-
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -153,7 +154,6 @@ input[type=text], select, textarea {
     resize: vertical
 }
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
     background-color: #4aaaa5;
     color: white;
@@ -163,26 +163,43 @@ input[type=submit] {
     font-size: 18px;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
     background-color: #ddd;
     color: #4aaaa5;
 }
 
-/* Add a background color and some padding around the form */
 .container {
     padding: 20px 0;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #bbb;
-    opacity: 1; /* Firefox */
+.portfolio-image {
+    width: 260px;
+    height: 200px;
 }
 
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #bbb;
+.portfolio-overlay {
+    height: 45px;
+    width: 260px;
+    background-color: #4aaaa5;
+    position: relative;
 }
 
-::-ms-input-placeholder { /* Microsoft Edge */
-    color: #bbb;
+.portfolio-text {
+    color: #fff;
+    position: relative;
+    top: -85px;
+    font-size: 22pt;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+}
+
+.grid-item {
+    padding: 30px 20px;
+    height: 200px;
+  }
