@@ -1,5 +1,3 @@
-# Basic-Portfolio
-
-Penn Coding Boot-Camp homework assigment 1.
+# Portfolio
 
 This is a simple HTML/CSS portfolio and contact structure.

@@ -1,9 +1,10 @@
 body {
-    margin: 0 0 40px 0;
+    margin: 0 0 80px 0;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete_seamless.png");
 }
 
+/* these suck, but in many, many attempts at setting margins of various elements, I could not find an effective way to maintain bottom margin. */
 .contact {
     height: 810px;
 }
